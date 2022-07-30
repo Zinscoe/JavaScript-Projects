@@ -1,0 +1,13 @@
+//kelvin is a constant variable with an integer of 293
+const kelvin = 293
+
+/*celsius is a variable that subtracts 273 degrees from kelvin*/
+var celsius = kelvin - 273
+
+/*fahrenheit is an equation of celsius * (9/5) + 32 */
+var fahrenheit = celsius * (9/5) + 32
+
+/*using the floor() method to round down the fahrenheit temp */
+Math.floor(fahrenheit)
+
+console.log(`The temperature is ${fahrenheit} degrees Fahrenheit.`)
