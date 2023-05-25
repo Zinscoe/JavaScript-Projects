@@ -1,0 +1,30 @@
+//constant variable of kelvin that equals to 293
+const kelvin = 293;
+
+//this converts the kelvin variable to a celsius variable
+var celsius = kelvin - 273;
+
+//this converts to fahrenheit from celsius
+var fahrenheit = celsius * (9/5) + 32;
+
+//this rounds down the variable of fahrenheit
+fahrenheit = Math.floor(fahrenheit);
+
+//this outputs the termperature of fahrenheit in degrees
+console.log(`The temperature is ${fahrenheit} degrees Fahrenheit.`);
+
+
+/*
+EXTRA
+converting celsius to Newton scale using this equation
+Newton = Celsius * (33/100)
+*/
+
+//this uses the newton equation to convert the celsius variable to the newton variable
+var newton = celsius * (33/100);
+
+//this rounds down the decimal for the newton variable
+newton=Math.floor(newton);
+
+//this outputs the temperature in newton degrees
+console.log(`The temperature is ${newton} degrees in Newton.`);
